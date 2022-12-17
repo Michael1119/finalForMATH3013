@@ -3,6 +3,9 @@ Operation system: Win10
 
 Compiler: MinGW
 
+# Features
+* Various numerical schemes for 1D heat equation, 2D heat equation and 1D wave equation
+
 # Visualization
 The numerical solutions are visualized by gnuplot.
 
