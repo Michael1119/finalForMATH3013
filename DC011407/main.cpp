@@ -1,4 +1,4 @@
-#include "parameters.h"
+#include "Parameters.h"
 #include <iostream>
 #include <vector>
 #include <fstream>
@@ -56,6 +56,7 @@ protected:
             file << t << " " << x << " " << u[i] << endl;
             x += par.dx;
         }
+        file << endl << endl;
     }
     void output(fstream& file, const double& t, const vector<vector<double>>& u){
         double x = par.dx;
@@ -68,6 +69,7 @@ protected:
             }
             y += par.dx;
         }
+        file << endl << endl;
     }
 };
 
